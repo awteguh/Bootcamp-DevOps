@@ -33,5 +33,5 @@ sudo systemctl status nginx
 ```
 launch nginx:
 ```bash
-sudo systemctl status nginx
-```sudo systemctl is-active nginx
+sudo systemctl is-active nginx
+```
