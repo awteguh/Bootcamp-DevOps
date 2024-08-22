@@ -3,7 +3,7 @@
 Hal pertama yang harus di lakuan adalah masuk ke terminal
 
 ## Install
-
+###hal yang wajib
 using sudo:
 
 ```bash
@@ -23,8 +23,8 @@ sudo snap install multipass
 
 cek version multipass:
 
-```js
-import NextTopLoader from 'nextjs-toploader';
+```bash
+multipass version
 ```
 
 ### Usage with `app/layout.js` for `app` folder structure
