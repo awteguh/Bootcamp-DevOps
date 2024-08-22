@@ -21,7 +21,6 @@ sudo apt install nginx
 
 ## Usage
 
-
 ```bash
 sudo systemctl start nginx
 ```
@@ -32,4 +31,7 @@ cek status nginx:
 ```bash
 sudo systemctl status nginx
 ```
-
+launch nginx:
+```bash
+sudo systemctl status nginx
+```sudo systemctl is-active nginx
