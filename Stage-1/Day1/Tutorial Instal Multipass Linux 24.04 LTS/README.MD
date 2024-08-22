@@ -4,7 +4,7 @@ Hal pertama yang harus di lakuan adalah masuk ke terminal
 
 ## Install
 
-using sudo:
+using update upgrade:
 
 ```bash
 sudo apt update
