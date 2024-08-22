@@ -21,17 +21,15 @@ sudo apt install nginx
 
 ## Usage
 
-cek version multipass:
 
 ```bash
 sudo systemctl start nginx
 ```
-
-launch multipass:
 ```bash
 sudo systemctl enable nginx
 ```
+cek status nginx:
 ```bash
-multipass shell ubuntu
+sudo systemctl status nginx
 ```
 
