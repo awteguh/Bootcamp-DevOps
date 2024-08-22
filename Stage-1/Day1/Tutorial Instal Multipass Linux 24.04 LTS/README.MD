@@ -1,13 +1,13 @@
 # Tutorial Instal Multipass Linux 24.04 LTS
 
-- A Next.js Top Loading Bar component made using nprogress, works with Next.js 14 and React.
+Hal pertama yang harus di lakuan adalah masuk ke terminal
 
 ## Install
 
-using npm:
+using sudo:
 
 ```bash
-npm install nextjs-toploader
+sudo apt update
 ```
 
 using yarn:
