@@ -3,7 +3,7 @@
 Hal pertama yang harus di lakuan adalah masuk ke terminal
 
 ## Install
-
+Hal yang paling wajib ketika memulai sebuah command di terminal:
 using sudo:
 
 ```bash
