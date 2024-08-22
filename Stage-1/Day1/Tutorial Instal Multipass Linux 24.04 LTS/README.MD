@@ -13,15 +13,15 @@ sudo apt update
 sudo apt upgrade
 ```
 
-using yarn:
+using multipass:
 
 ```bash
-yarn add nextjs-toploader
+sudo snap install multipass
 ```
 
 ## Usage
 
-import using:
+cek version multipass:
 
 ```js
 import NextTopLoader from 'nextjs-toploader';
