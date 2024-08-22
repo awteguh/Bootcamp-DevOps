@@ -3,7 +3,7 @@
 Hal pertama yang harus di lakuan adalah masuk ke terminal
 
 ## Install
-###hal yang wajib
+### al yang wajib
 using sudo:
 
 ```bash
