@@ -9,6 +9,9 @@ using sudo:
 ```bash
 sudo apt update
 ```
+```bash
+sudo apt upgrade
+```
 
 using yarn:
 
