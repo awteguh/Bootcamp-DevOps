@@ -27,41 +27,10 @@ cek version multipass:
 multipass version
 ```
 
-### Usage with `app/layout.js` for `app` folder structure
-
-For rendering add `<NextTopLoader />` to your `return()` inside the `<body></body>` of `RootLayout()`:
-
-```js
-import NextTopLoader from 'nextjs-toploader';
-
-export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body>
-        <NextTopLoader />
-        {children}
-      </body>
-    </html>
-  );
-}
+launch multipass:
+```bash
+multipass launch --name ubuntu
 ```
-
-### Usage with `pages/_app.js` for `pages` folder structure
-
-For rendering add `<NextTopLoader />` to your `return()` in `MyApp()`:
-
-```js
-import NextTopLoader from 'nextjs-toploader';
-
-export default function MyApp({ Component, pageProps }) {
-  return (
-    <>
-      <NextTopLoader />
-      <Component {...pageProps} />;
-    </>
-  );
-}
+```bash
+multipass shell ubuntu
 ```
-
-### Usage with React, Vite React or any other React Based Framework
-
