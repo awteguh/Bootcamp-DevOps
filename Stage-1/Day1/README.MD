@@ -13,10 +13,10 @@ sudo apt update
 sudo apt upgrade
 ```
 
-using multipass:
+using nginx:
 
 ```bash
-sudo snap install multipass
+sudo apt install nginx
 ```
 
 ## Usage
@@ -24,12 +24,12 @@ sudo snap install multipass
 cek version multipass:
 
 ```bash
-multipass version
+sudo systemctl start nginx
 ```
 
 launch multipass:
 ```bash
-multipass launch --name ubuntu
+sudo systemctl enable nginx
 ```
 ```bash
 multipass shell ubuntu
