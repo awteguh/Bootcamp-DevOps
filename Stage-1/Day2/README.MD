@@ -117,3 +117,11 @@ Perintah untuk menampilkan riwayat perintah yang kita sudah gunakan
 history
 ```
 
+# chmod
+Perintah untuk mengganti permission file ataupun directory. r = read(4), w = write(2), x=execute(1) dengan full permission 777.
+```bash
+sudo chmod +x index.html
+```
+```bash
+sudo chmod 777 index.html
+```
