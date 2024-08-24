@@ -30,4 +30,8 @@ Perintah untuk melihat list apa aja yang ada di directory
 ls
 ```
 
-##
+##touch
+Perintah untuk membuat suatu file
+```bash
+touch file1
+```
