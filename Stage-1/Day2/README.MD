@@ -63,4 +63,10 @@ Perintah untuk keluar directory
 ```bash
 cd ..
 
+## cat
+Perintah untuk menampilkan isi file
+```bash
+cat file1
+```
+
 
