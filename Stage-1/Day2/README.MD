@@ -116,6 +116,10 @@ Perintah untuk menampilkan riwayat perintah yang kita sudah gunakan
 ```bash
 history
 ```
+Perintah untuk menampilkan riwayat berdasarkan teks yang diinginkan
+```bash
+history | grep hello
+```
 
 # chmod
 Perintah untuk mengganti permission file ataupun directory. r = read(4), w = write(2), x=execute(1) dengan full permission 777.
