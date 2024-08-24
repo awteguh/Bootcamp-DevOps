@@ -1,9 +1,9 @@
 # Linux Command
 Perintah yang diberikan kepada sistem operasi linux untuk menjalankan suatu tugas atau aktivitas tertentu
 
-## Perintah Dasar Linux
+## sudo
 
-1. Sudo
+Perintah untuk menjalankan suatu program sebagai super user
 
 ```bash
 sudo apt update
@@ -12,10 +12,11 @@ sudo apt update
 sudo apt upgrade
 ```
 
-using multipass:
+## mkdir
+Perintah untuk membuat suatu directory
 
 ```bash
-sudo snap install multipass
+mkdir folder1
 ```
 
 ## Usage
