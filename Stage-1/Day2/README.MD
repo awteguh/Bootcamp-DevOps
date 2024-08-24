@@ -14,24 +14,20 @@ sudo apt upgrade
 
 ## mkdir
 Perintah untuk membuat suatu directory
-
 ```bash
 mkdir folder1
 ```
 
-## Usage
-
-cek version multipass:
-
+## rmdir
+Perintah untuk menghapus suatu directory
 ```bash
-multipass version
+rmdir folder1
 ```
 
-launch multipass:
+## ls
+Perintah untuk melihat list apa aja yang ada di directory
 ```bash
-multipass launch --name ubuntu
-```
-```bash
-multipass shell ubuntu
+ls
 ```
 
+##
