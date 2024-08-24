@@ -64,12 +64,6 @@ Perintah untuk keluar directory
 cd ..
 ```
 
-## cat
-Perintah untuk menampilkan isi file
-```bash
-cat file1
-```
-
 ## cp
 Perintah untuk mengcopy file serta mengubah namanya
 ```bash
@@ -91,8 +85,12 @@ Perintah untuk menampilkan suatu inputan atau menambahkan suatu teks kedalam fil
 echo "hello teguh" > file1
 ```
 ```bash
-echo "hello teg >> file1
+echo "hello teg" >> file1
 ```
 
-
+## cat
+Perintah untuk menampilkan isi file
+```bash
+cat file1
+```
 
