@@ -49,7 +49,7 @@ rm file1
 ## rm -rf folder1
 Perintah untuk menghapus folder & folder yang ada isinya
 ```bash
-rm -rf foler1
+rm -rf folder1
 ```
 
 ## cd
@@ -68,6 +68,21 @@ cd ..
 Perintah untuk menampilkan isi file
 ```bash
 cat file1
+```
+
+## cp
+Perintah untuk mengcopy file serta mengubah namanya
+```bash
+cp file1 file2
+```
+
+# mv
+Perintah untuk merename file dan memindahkan file kedalam suatu folder
+```bash
+mv file1 file3
+```
+```bash
+mv file3 folder1
 ```
 
 
