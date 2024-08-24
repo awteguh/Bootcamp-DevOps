@@ -110,3 +110,10 @@ grep hellow file1.html
 ```bash
 grep -r hellow
 ```
+
+# history
+Perintah untuk menampilkan riwayat perintah yang kita sudah gunakan
+```bash
+history
+```
+
