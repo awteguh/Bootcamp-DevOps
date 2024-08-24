@@ -93,4 +93,12 @@ Perintah untuk menampilkan isi file
 ```bash
 cat file1
 ```
+## find
+Perintah untuk mencari suatu file maupun directory dimana f untuk file dan d untuk directory
+```bash
+find -type f -name file1.html
+```
+```bash
+find -typer d -name folder1
+```
 
