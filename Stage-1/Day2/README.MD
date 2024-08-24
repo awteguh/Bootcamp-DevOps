@@ -1,6 +1,5 @@
 # Linux Command
-
-Hal pertama yang harus di lakuan adalah masuk ke terminal
+Perintah yang diberikan kepada sistem operasi linux untuk menjalankan suatu tugas atau aktivitas tertentu
 
 ## Install
 
