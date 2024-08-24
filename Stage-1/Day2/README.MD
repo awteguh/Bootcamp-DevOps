@@ -1,9 +1,9 @@
 # Linux Command
 Perintah yang diberikan kepada sistem operasi linux untuk menjalankan suatu tugas atau aktivitas tertentu
 
-## Install
+## Perintah Dasar Linux
 
-using update upgrade:
+1. Sudo
 
 ```bash
 sudo apt update
