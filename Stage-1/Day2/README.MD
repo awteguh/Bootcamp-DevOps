@@ -116,7 +116,7 @@ Perintah untuk menampilkan riwayat perintah yang kita sudah gunakan
 ```bash
 history
 ```
-Perintah untuk menampilkan riwayat berdasarkan teks yang diinginkan
+Perintah untuk menampilkan riwayat berdasarkan teks yang dicari
 ```bash
 history | grep hello
 ```
@@ -134,6 +134,12 @@ sudo chmod 777 index.html
 Perintah untuk mengganti kepemilikan sebuah file ataupun directory, seperti mengganti kepemilikan default sebagai ubuntu menjadi root
 ```bash
 sudo chown root:root index.html
+```
+
+## ping
+Perintah untuk mengetes koneksi internet
+```bash
+ping google.com
 ```
 
 
