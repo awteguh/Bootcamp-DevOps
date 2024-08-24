@@ -102,3 +102,11 @@ find -type f -name file1.html
 find -typer d -name folder1
 ```
 
+## grep
+Perintah untuk mencari teks dengan menghighlight teks yang kita cari, untuk mencari teks di seluruh file menggunakan -r
+```bash
+grep hellow file1.html
+```
+```bash
+grep -r hellow
+```
