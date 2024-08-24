@@ -85,4 +85,14 @@ mv file1 file3
 mv file3 folder1
 ```
 
+## echo
+Perintah untuk menampilkan suatu inputan atau menambahkan suatu teks kedalam file
+```bash
+echo "hello teguh" > file1
+```
+```bash
+echo "hello teg >> file1
+```
+
+
 
