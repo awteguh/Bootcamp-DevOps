@@ -143,10 +143,32 @@ ping google.com
 ```
 
 ## wget
-Perintah untuk mendownload suatu file. contoh menggunakan link https://wordpress.org/latest.zip
+Perintah untuk mendownload suatu file. Contoh menggunakan link https://wordpress.org/latest.zip
 ```bash
 wget https://wordpress.org/latest.zip
 ```
+
+## unzip
+Perintah untuk meng ekstrak file .zip. Untuk menginstal perintah unzip bisa menggunakan perintah :
+```bash
+sudo apt install unzip
+```
+Sekarang bisa mengeksrtrak zip menggunakan perintah :
+```bash
+unzip latest.zip
+```
+
+## zip
+Perintah untuk mengkompres suatu file atau directory menjadi .zip. Untuk menginstal perintah zip bisa menggunakan perintah :
+```bash
+sudo apt install zip
+```
+Sekarang bisa mengkompres file atau directory menjadi .zip
+```bash
+zip -r wordpress.zip wordpress
+```
+
+
 
 
 
