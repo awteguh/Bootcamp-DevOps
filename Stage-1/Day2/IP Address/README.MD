@@ -3,10 +3,16 @@ Ip Address adalah alamat yang berada atau digunakan pada suatu perangkat untuk s
 Perintah untuk menjalankan suatu program sebagai super user
 
 ## IP Publik
-IP yang digunkan pada router yang di berikan oleh penyedia layanan (ISP). IP Publik ini biasa yang terjadi pada komputer kita yang terhubung dengan wifi dimana IP tersubut bisa berubah ubah saat kita putuskan kemudian sambungkan kembali.
+IP yang digunkan pada router untuk yang di berikan oleh penyedia layanan (ISP).
 
 ## IP Private
-IP yang berada para perangkat kita yang sudah di sediakan dari bawaan pabriknya
+IP yang dimiliki orang perangkat kita yang terhubung ke jaringan lokal yang di tetapkan oleh router.
+
+## IP Dinamis
+Pemberian IP Secara otomatis dalam sebuah jaringan. IP akan berubah ubah setiap waktu
+
+## IP Statis
+Merupakan pemberian IP secara manual, IP ini tidak akan berubah.
 
 
 
