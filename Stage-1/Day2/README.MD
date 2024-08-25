@@ -185,6 +185,10 @@ Perintah untuk bisa masuk ke sistem root
 ```bash
 sudo su
 ```
+untuk keluar dari akses root
+```bash
+exit
+```
 dan bisa juga unutk ganti user
 ```bash
 sudo su ubuntu
