@@ -142,7 +142,11 @@ Perintah untuk mengetes koneksi internet
 ping google.com
 ```
 
-
+# wget
+Perintah untuk mendownload suatu file. contoh menggunakan link https://wordpress.org/latest.zip
+```bash
+wget https://wordpress.org/latest.zip
+```
 
 
 
