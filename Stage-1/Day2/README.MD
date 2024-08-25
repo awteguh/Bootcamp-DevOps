@@ -130,7 +130,7 @@ sudo chmod +x index.html
 sudo chmod 777 index.html
 ```
 
-#chown
+# chown
 Perintah untuk mengganti kepemilikan sebuah file ataupun directory, seperti mengganti kepemilikan default sebagai ubuntu menjadi root
 ```bash
 sudo chown root:root index.html
