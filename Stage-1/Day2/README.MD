@@ -168,6 +168,27 @@ Sekarang bisa mengkompres file atau directory menjadi .zip
 zip -r wordpress.zip wordpress
 ```
 
+## adduser
+Perintah untuk membuat user baru
+```bash
+sudo adduser teguh
+```
+
+## usermod
+Perintah untuk menambahkan group user yang kita buat ke root
+```bash
+sudo usermod -aG sudo teguh
+```
+
+## sudo su
+Perintah untuk bisa masuk ke sistem root dan bisa juga unutk ganti user
+```bash
+sudo su
+```
+```bash
+sudo su ubuntu
+```
+
 
 
 
