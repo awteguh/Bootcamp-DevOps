@@ -181,10 +181,11 @@ sudo usermod -aG sudo teguh
 ```
 
 ## sudo su
-Perintah untuk bisa masuk ke sistem root dan bisa juga unutk ganti user
+Perintah untuk bisa masuk ke sistem root 
 ```bash
 sudo su
 ```
+dan bisa juga unutk ganti user
 ```bash
 sudo su ubuntu
 ```
