@@ -70,7 +70,7 @@ Perintah untuk mengcopy file serta mengubah namanya
 cp file1 file2
 ```
 
-# mv
+## mv
 Perintah untuk merename file dan memindahkan file kedalam suatu folder
 ```bash
 mv file1 file3
@@ -111,7 +111,7 @@ grep hellow file1.html
 grep -r hellow
 ```
 
-# history
+## history
 Perintah untuk menampilkan riwayat perintah yang kita sudah gunakan
 ```bash
 history
@@ -121,7 +121,7 @@ Perintah untuk menampilkan riwayat berdasarkan teks yang dicari
 history | grep hello
 ```
 
-# chmod
+## chmod
 Perintah untuk mengganti permission file ataupun directory. r = read(4), w = write(2), x=execute(1) dengan full permission 777.
 ```bash
 sudo chmod +x index.html
@@ -130,7 +130,7 @@ sudo chmod +x index.html
 sudo chmod 777 index.html
 ```
 
-# chown
+## chown
 Perintah untuk mengganti kepemilikan sebuah file ataupun directory, seperti mengganti kepemilikan default sebagai ubuntu menjadi root
 ```bash
 sudo chown root:root index.html
@@ -142,7 +142,7 @@ Perintah untuk mengetes koneksi internet
 ping google.com
 ```
 
-# wget
+## wget
 Perintah untuk mendownload suatu file. contoh menggunakan link https://wordpress.org/latest.zip
 ```bash
 wget https://wordpress.org/latest.zip
