@@ -5,7 +5,8 @@ Sebuah text editor pada terminal linux
 ## Keluar
 ```bash
 Ctrl + X
-``` Keluar dari text editor nano
+``` 
+Keluar dari text editor nano
 
 
 
