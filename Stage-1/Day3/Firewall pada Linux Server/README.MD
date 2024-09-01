@@ -43,3 +43,30 @@ hanya mengijinkan dari ip 192.168.1.10/server a ke server b
 sudo ufw deny 80
 ```
 memblokir semua akses ke port 80 dari alamat lain
+
+```bash
+sudo ufw allow 80/tcp
+```
+membuka akses untuk port 80 dengan koneksi udp
+
+## status verbose
+```bash
+sudo ufw status verbose
+```
+untuk melihat status apa saja yang ada
+
+## delete
+```bash
+sudo ufw delete deny 80
+```
+menghapus konfigurasi, harus sama dengan perintah
+
+# perbedaan tcp dan udp
+## Tcp
+Transmission Control Protocol adalah protokol berorientasi koneksi, yang berarti ia menetapkan koneksi antara pengirim dan penerima sebelum data dikirim.
+Menjamin pengiriman data secara urut dan benar. 
+TCP digunakan untuk aplikasi di mana keandalan dan urutan data penting, seperti HTTP/HTTPS (web browsing), FTP (file transfer), dan SMTP (email)
+## Udp
+User Datagram Protocol adalah protokol tanpa orientasi koneksi, yang berarti tidak ada sesi atau koneksi yang dibuat sebelum data dikirim. Data dikirimkan secara langsung.
+UDP lebih cepat dibandingkan TCP karena tidak ada mekanisme untuk pengaturan koneksi, pengurutan, atau kontrol aliran.
+UDP digunakan untuk aplikasi di mana kecepatan lebih penting daripada keandalan, seperti streaming video/audio, game online.
