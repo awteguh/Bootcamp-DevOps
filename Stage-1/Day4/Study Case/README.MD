@@ -89,13 +89,13 @@ perintah untuk melakukan stage pada semua file yang berakhiran .html
 ```bash
 git add .
 ```
-perintah untuk menandai semuai file
+perintah untuk menandai file yang akan di commit
 
 ## Git Commit
 ``` bash 
 git commit -m "pesan yang akan di tulis/commit"
 ```
-perintah untuk menyimpan file kedalam data base git dengan pesan
+perintah untuk menyimpan file kedalam data base git dengan menggunakan pesan commit
 
 ## Git remote
 Login github lalu pili new repository
@@ -114,4 +114,34 @@ proses upload data local kita ke github
 ```bash
 git push origin master
 ```
-master merupakan branch defaul yang ada di local kita, sekang file local kita sudah terupload pada github
+master merupakan branch default yang ada di local kita, sekarang file local kita sudah terupload pada github
+
+## Git Branch
+```bash
+git branch namabrach
+```
+perintah untuk mengcloning folder dari repository
+```bash
+git checkout namabranch
+```
+untuk pindah branch
+```bash
+git branch -m (name branch)
+```
+untuk membuat nama branch serta pindah langsung ke dalam branch tersebut
+```bash
+git branch - a
+```
+untuk melihat daftar nama branch
+
+## Pull
+```bash
+git pull origin namabrach
+```
+perintah untuk menyamakan perubahan yang terjadi pada server git
+
+## Merge
+```bash
+git merge master
+```
+untuk menggabungkan file yang ada di master kedalam development
