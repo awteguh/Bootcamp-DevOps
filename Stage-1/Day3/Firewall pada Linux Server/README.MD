@@ -47,7 +47,7 @@ memblokir semua akses ke port 80 dari alamat lain
 ```bash
 sudo ufw allow 80/tcp
 ```
-membuka akses untuk port 80 dengan koneksi udp
+membuka akses untuk port 80 dengan koneksi tcp
 
 ## status verbose
 ```bash
