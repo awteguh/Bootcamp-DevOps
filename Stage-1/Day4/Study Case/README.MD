@@ -197,3 +197,5 @@ file siap untuk di upload ke github
 git push origin development
 ```
 maka file sudah terupload pada github dan update pada branch development
+
+File index.html isinya berbeda berdasarkan branch
