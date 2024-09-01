@@ -76,3 +76,42 @@ sudo nano .gitignore
 ```bash
 git status
 ```
+
+## Git add / Stage
+```bash
+git add file1
+```
+perintah untuk menandai file sebelum melakukan commit
+```bash
+git add *.html
+```
+perintah untuk melakukan stage pada semua file yang berakhiran .html
+```bash
+git add .
+```
+perintah untuk menandai semuai file
+
+## Git Commit
+``` bash 
+git commit -m "pesan yang akan di tulis/commit"
+```
+perintah untuk menyimpan file kedalam data base git dengan pesan
+
+## Git remote
+Login github lalu pili new repository
+```bash
+git remote add origin git@github.com:nama repository/nama folder.git
+```
+copy link tersebut dari github pada bagian ssh
+
+```bash
+git remote -v
+```
+untuk melihat remote yang kita gunakan
+
+## Push
+proses upload data local kita ke github
+```bash
+git push origin master
+```
+master merupakan branch defaul yang ada di local kita, sekang file local kita sudah terupload pada github
