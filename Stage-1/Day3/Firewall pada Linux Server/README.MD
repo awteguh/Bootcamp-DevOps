@@ -3,7 +3,7 @@
     Study case nya adalah agar hanya server A yang hanya dapat mengakses WebServer yang ada pada server B.
     Carilah cara agar UFW dapat memblokir ataupun mengizinkan specific protocol jaringan seperti TCP dan UDP.
     Jelaskan perbedaan protocol Jaringan TCP serta UDP.
-## ufw instal
+## ufw instal (konfigurasi pada server B)
 langkah pertama melakukan instalasi ufw
 ```bash
 sudo apt instal ufw -y
