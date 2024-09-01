@@ -145,3 +145,55 @@ perintah untuk menyamakan perubahan yang terjadi pada server git
 git merge master
 ```
 untuk menggabungkan file yang ada di master kedalam development
+
+
+## konfigurasi
+```bash
+git checkout master
+```
+Selanjutnya pindah branch master
+```bash
+nano index.html
+```
+melakukan perubahan/menambah isi pada file html
+```bash
+git add index.html
+```
+menandai file yang akan di commit
+```bash
+git status
+```
+untuk melihat status perubahan
+```bash
+git commit -m "fix: Typo on Description"
+```
+file siap untuk di upload ke github
+```bash
+git push origin master
+```
+maka file sudah terupload pada github dan update pada branch master
+
+```bash
+git checkout development
+```
+pindah branch development
+```bash
+nano index.html
+```
+melakukan perubahan/menambah isi pada file html
+```bash
+git add index.html
+```
+menandai file yang akan di commit
+```bash
+git status
+```
+untuk melihat status perubahan
+```bash
+git commit -m "feat: Header Adjustment"
+```
+file siap untuk di upload ke github
+```bash
+git push origin development
+```
+maka file sudah terupload pada github dan update pada branch development
