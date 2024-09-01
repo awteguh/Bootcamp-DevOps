@@ -61,7 +61,7 @@ sudo ufw delete deny 80
 ```
 menghapus konfigurasi, harus sama dengan perintah
 
-# perbedaan tcp dan udp
+# Perbedaan TCP dan UDP
 ## Tcp
 Transmission Control Protocol adalah protokol berorientasi koneksi, yang berarti ia menetapkan koneksi antara pengirim dan penerima sebelum data dikirim.
 Menjamin pengiriman data secara urut dan benar. 
