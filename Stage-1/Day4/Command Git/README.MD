@@ -145,5 +145,6 @@ perintah untuk menyamakan perubahan yang terjadi pada server git
 ```bash
 git merge master
 ```
+untuk menggabungkan file yang ada di master kedalam development
 
 
