@@ -3,10 +3,10 @@ Dengan case user menginputkan nomer 1 maka dia akan menginstall WebServer Nginx,
 ```bash
 #!/bin/bash
 
-	echo "Masukan Pilihan Anda!"
-	echo "1=Nginx"
-	echo "2=Apache"
-	echo "3=exit"
+echo "Masukan Pilihan Anda!"
+echo "1=Nginx"
+echo "2=Apache"
+echo "3=exit"
 
 read Pilihan
 if [ "$Pilihan" = 1 ]; then
