@@ -21,6 +21,7 @@ if [ "$Pilihan" = 1 ]; then
 	sudo systemctl is-active nginx
 	echo "Install Selesai"
 else
+
 if [ "$Pilihan" = 2 ]; then
 	echo "Melakukan Update"
 	sudo apt update
