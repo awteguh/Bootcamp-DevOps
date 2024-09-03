@@ -5,7 +5,7 @@ Perintah yang diberikan kepada sistem operasi linux untuk menjalankan suatu tuga
 Perintah untuk menjalankan suatu program sebagai super user
 ```bash
 sudo apt update
-```
+``` 
 ```bash
 sudo apt upgrade
 ```
