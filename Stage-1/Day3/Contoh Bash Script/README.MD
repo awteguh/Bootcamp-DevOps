@@ -5,7 +5,7 @@ Dengan case user menginputkan nomer 1 maka dia akan menginstall WebServer Nginx,
 
 echo "Masukan Pilihan Anda!"
 echo "1=Nginx"
-echo "2=Apache"
+echo "2=Apache" 
 echo "3=exit"
 
 read Pilihan
