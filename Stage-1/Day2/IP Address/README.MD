@@ -13,7 +13,7 @@ Pemberian IP Secara otomatis dalam sebuah jaringan. IP akan berubah ubah setiap 
 ## IP Statis
 Merupakan pemberian IP secara manual, IP ini tidak akan berubah.
 
-
+ 
 
 
 
