@@ -35,3 +35,4 @@ launch nginx:
 ```bash
 sudo systemctl is-active nginx
 ```
+ 
