@@ -9,7 +9,7 @@ https://github.com/awteguh/devops21-dumbways-teguh/issues/1
 
 # Application Microservices
 Suatu arsitektur pengembengan perangkat lunak dimana fungsional di bangun menjadi beberapa bagian tergantung dengan kebutuhan dan akan saling berintegritas antar bagian.
-
+https://github.com/awteguh/devops21-dumbways-teguh/issues/1#issuecomment-2329104407
 1. Biaya Cost lebih besar
 2. Cocok untuk aplikasi bersekala besar
 3. Maintenance tidak berpengaruh ke fungsional yang lain, tergantung fungsional
