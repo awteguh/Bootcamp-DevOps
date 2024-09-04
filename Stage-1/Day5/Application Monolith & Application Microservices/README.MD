@@ -9,7 +9,7 @@ Suatu arsitektur pengembangan perangkat lunak dimana seluruh fungsional di bangu
 
 # Application Microservices
 Suatu arsitektur pengembengan perangkat lunak dimana fungsional di bangun menjadi beberapa bagian tergantung dengan kebutuhan dan akan saling berintegritas antar bagian.
-https://github.com/awteguh/devops21-dumbways-teguh/issues/1#issuecomment-2329104407
+![Cuplikan layar dari 2024-09-04 20-39-01](https://github.com/user-attachments/assets/29cd358d-1c9d-40db-82a7-fa7f3f4b6555)
 1. Biaya Cost lebih besar
 2. Cocok untuk aplikasi bersekala besar
 3. Maintenance tidak berpengaruh ke fungsional yang lain, tergantung fungsional
