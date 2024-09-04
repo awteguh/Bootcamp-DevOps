@@ -1,6 +1,6 @@
 # Application Monolith
 Suatu arsitektur pengembangan perangkat lunak dimana seluruh fungsional di bangun menjadi satu unit saja, mulai dari front end, back end dan data base yang saling berintegritas dalam satu jalur.
-https://github.com/user-attachments/assets/958e6b87-6e5d-4244-8a12-488c293d4a5f
+![Cuplikan layar dari 2024-09-04 20-39-19](https://github.com/user-attachments/assets/56f413e9-545a-4b83-8d34-c8c21251ade4)
 1. Untuk pembuatanya biaya cost lebih murah.
 2. Maintenance berpengaruh ke semua fungsi, satu fungsi di perbaiki fungsi lainnya tidak bisa di akses.
 3. Cocok di gunakan untuk aplikasi kecil hingga menengah
