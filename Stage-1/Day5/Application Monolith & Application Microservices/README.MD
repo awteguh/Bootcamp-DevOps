@@ -1,6 +1,6 @@
 # Application Monolith
 Suatu arsitektur pengembangan perangkat lunak dimana seluruh fungsional di bangun menjadi satu unit saja, mulai dari front end, back end dan data base yang saling berintegritas dalam satu jalur.
-
+https://github.com/awteguh/devops21-dumbways-teguh/issues/1
 1. Untuk pembuatanya biaya cost lebih murah.
 2. Maintenance berpengaruh ke semua fungsi, satu fungsi di perbaiki fungsi lainnya tidak bisa di akses.
 3. Cocok di gunakan untuk aplikasi kecil hingga menengah
