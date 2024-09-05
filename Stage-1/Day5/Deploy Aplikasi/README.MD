@@ -25,10 +25,12 @@ nvm i 14
 atau bisa menggunakan ini
 ```bash
 node -v
-``` untuk mengeetahui node js versi berapa yang di pakai
+``` 
+untuk mengeetahui node js versi berapa yang di pakai
 ```bash
 nvm use v14.21.3
-``` untuk menggunakan nvm versi 14
+``` 
+untuk menggunakan nvm versi 14
 
 ## npm
 
