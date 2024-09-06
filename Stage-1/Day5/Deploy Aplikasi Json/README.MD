@@ -31,6 +31,50 @@ untuk mengeetahui node js versi berapa yang di pakai
 nvm use v14.21.3
 ``` 
 untuk menggunakan nvm versi 14
+```bash
+git clone https://github.com/dumbwaysdev/dumbflix-frontend
+```
+mengclone aplikasi dari github dan akan di deploy
 
-## npm
 
+# npm
+Node Package Manager adalah alat manajemen paket untuk JavaScript yang digunakan untuk mengelola dependensi (package) dalam proyek Node Js
+```bash
+npm init -y
+```
+jika memulai projek baru dan akan menghasilkan file `package.json`
+```bash
+npm install express --save
+```
+menginstal dependensial express yang ada di folder node_modules
+```bash
+npm install
+```
+untuk menginstal semua dependensial yang ada di folder node_modules
+```bash
+npm start
+```
+untuk menjalankan `aplikasi.js` yang ada
+
+*jika buat simple aplikasi
+buat file baru
+```bash
+nano index.js
+```
+`const express = require("express");
+const app = express();
+const port = 3000;
+
+app.get("/", (req, res) => {
+  res.send("Hello World!");
+});
+
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`);
+});
+`
+contoh aplikasi sederhana
+```bash
+node index.js
+```
+jalankan aplikasi tersebut, atu bisa menggunakan `npm start`
