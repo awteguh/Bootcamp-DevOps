@@ -50,3 +50,6 @@ python3 index.py
 ```
 untuk menjalankan aplikasi
 
+## pm2
+untuk menjalankan 
+
