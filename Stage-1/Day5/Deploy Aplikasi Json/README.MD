@@ -79,3 +79,18 @@ contoh aplikasi sederhana
 node index.js
 ```
 jalankan aplikasi tersebut, atu bisa menggunakan `npm start`
+
+## pm2
+command linux agar suatu aplikasi bisa berjalan pada background
+```bash
+npm install -g pm2
+```
+menginstall paket pm2
+```bash
+pm2 start npm -- start
+```
+menjalankan pm2 agar aplikasi berjalan di background
+```bash
+pm2 stop npm
+```
+menghentikan aplikasi agar tidak berjalan pada backgroud
