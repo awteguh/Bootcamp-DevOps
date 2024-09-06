@@ -34,6 +34,7 @@ pip install flask
 instal kembali flask
 ```bash
 nano index.py
+```
 ```bash
 from flask import Flask
 app = Flask(__name__)
@@ -46,6 +47,6 @@ if __name__ == "__main__":
 buat file `index.py` dan sesuaikan ip hostnya
 ```bash
 python3 index.py
-```bash
+```
 untuk menjalankan aplikasi
 
