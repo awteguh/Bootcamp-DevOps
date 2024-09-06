@@ -61,7 +61,8 @@ buat file baru
 ```bash
 nano index.js
 ```
-`const express = require("express");
+```bash
+const express = require("express");
 const app = express();
 const port = 3000;
 
@@ -72,7 +73,7 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
-`
+```
 contoh aplikasi sederhana
 ```bash
 node index.js
