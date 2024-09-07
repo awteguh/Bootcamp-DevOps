@@ -51,5 +51,12 @@ python3 index.py
 untuk menjalankan aplikasi
 
 ## pm2
-untuk menjalankan 
-
+untuk menjalankan aplikasi berjalan pada background
+```bash
+npm install pm2 -g
+```
+untuk menginstal pm2 jika belum terinsatall
+```bash
+pm2 start index.py --interpreter ./myenv/bin/python 
+```
+untuk menjalankan pm2 di python supaya aplikasi berjalan di backround
