@@ -3,7 +3,7 @@ Load balancing adalah teknik distribusi lalu lintas jaringan atau beban kerja di
 
 ## konfigurasi
 * untuk membuat suatu Load Balancing harus membuat server baru lagi dan aplikasi yang sama seperti sebelumnya
-* sekarang sudah ada 2 buah server dan 2 bauh aplikasi
+* sekarang sudah ada 2 buah server dan 2 buah aplikasi
 * selanjutnya masuk kedalam konfigurasi reverse proxy yang dibuat sebelumnya
 ```bash 
 sudo nano sudo nano /etc/nginx/folderproxy/my.reverse-proxy.conf
