@@ -1,5 +1,5 @@
 # Reverse Proxy
-Reverse proxy adalah server yang bertindak sebagai perantara antara klien (misalnya, browser web) dan server yang menyediakan sumber daya (misalnya, server web atau aplikasi).
+Reverse proxy adalah konfigurasi standar yang digunakan untuk mengubah jalur traffic, server yang bertindak sebagai perantara antara klien (misalnya, browser web) dan server yang menyediakan sumber daya (misalnya, server web atau aplikasi).
 
 
 ## Konfigurasi 
