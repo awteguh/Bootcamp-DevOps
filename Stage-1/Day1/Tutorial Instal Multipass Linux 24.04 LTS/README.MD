@@ -1,6 +1,6 @@
 # Tutorial Instal Multipass Linux 24.04 LTS
 
-Hal pertama yang harus di lakuan adalah masuk ke terminal
+Hal pertama yang harus di lakuan adalah masuk ke terminal linux
 
 ## Install
 
@@ -29,8 +29,8 @@ multipass version
 
 launch multipass:
 ```bash
-multipass launch --name ubuntu
+multipass launch --name namamultipass
 ```
 ```bash
-multipass shell ubuntu
+multipass shell namamultipass
 ```
