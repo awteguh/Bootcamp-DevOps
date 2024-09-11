@@ -1,8 +1,9 @@
 # Implementasi Firewall pada Linux Server
-    Buatlah 2 buah Virtual Machine.
-    Study case nya adalah agar hanya server A yang hanya dapat mengakses WebServer yang ada pada server B.
-    Carilah cara agar UFW dapat memblokir ataupun mengizinkan specific protocol jaringan seperti TCP dan UDP.
-    Jelaskan perbedaan protocol Jaringan TCP serta UDP.
+* Buatlah 2 buah Virtual Machine.
+* Study case nya adalah agar hanya server A yang hanya dapat mengakses WebServer yang ada pada server B.
+* Carilah cara agar UFW dapat memblokir ataupun mengizinkan specific protocol jaringan seperti TCP dan UDP.
+* Jelaskan perbedaan protocol Jaringan TCP serta UDP.
+
 ## ufw instal (konfigurasi pada server B)
 langkah pertama melakukan instalasi ufw
 ```bash
